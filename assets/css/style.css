@@ -113,6 +113,14 @@ ul li{
     color: red;
 }
 
+.checked::before{
+    content: "\2713";
+}
+
+.unchecked::before{
+    content: "\2717";
+}
+
 .blue::after{
     content: 'Editorial';
     color: white;
@@ -166,4 +174,3 @@ ul li{
     padding: 5px 8px;
     margin: 8px;
 }
-
