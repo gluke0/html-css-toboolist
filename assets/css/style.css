@@ -60,3 +60,71 @@ header{
     border-radius: 5px;
 }
 
+.container2{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+h2{
+    padding-bottom: 2px;
+}
+
+.lists{
+    padding: 28px 0 0 28px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.blue::after{
+    content: 'Editorial';
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.purple::after{
+    content: 'Editorial';
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.almostgreen::after{
+    content: 'Editorial';
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.orange::after{
+    content: 'Editorial';
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.pink::after{
+    content: 'Editorial';
+    color: white;
+    background-color: pink;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.green::after{
+    content: 'Editorial';
+    color: white;
+    background-color: greenyellow;
+    border-radius: 5px;
+    margin: 10px;
+}
