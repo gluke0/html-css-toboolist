@@ -1,0 +1,35 @@
+/* reset css */
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    margin-left: 1em;
+}
+
+table{
+    border-spacing: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(194, 224, 234);
+}
+
+header{ 
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+    height: 80px;
+    padding: 7px 0px 7px 12px; 
+}
+
+#logotesto{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
