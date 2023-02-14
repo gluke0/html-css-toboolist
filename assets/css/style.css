@@ -69,6 +69,7 @@ header{
 
 h2{
     padding-bottom: 2px;
+    padding-left: 14px;
 }
 
 .lists{
@@ -78,7 +79,35 @@ h2{
 ul li{
     list-style-type: none;
     margin-bottom: 15px;
-    margin-left: 30px;
+}
+.symbol1{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+}
+
+.symbol2{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+}
+
+.checked{
+    padding: 2px;
+    line-height: 20px;
+    color: green;
+}
+
+.unchecked{
+    padding: 2px;
+    line-height: 20px;
+    color: red;
 }
 
 .blue::after{
@@ -90,7 +119,7 @@ ul li{
 }
 
 .purple::after{
-    content: 'Editorial';
+    content: 'Q1 Goals';
     color: white;
     background-color: purple;
     border-radius: 5px;
@@ -98,7 +127,7 @@ ul li{
 }
 
 .almostgreen::after{
-    content: 'Editorial';
+    content: 'Recruiting';
     color: white;
     background-color: green;
     border-radius: 5px;
@@ -106,7 +135,7 @@ ul li{
 }
 
 .orange::after{
-    content: 'Editorial';
+    content: 'Mobile';
     color: white;
     background-color: orange;
     border-radius: 5px;
@@ -114,7 +143,7 @@ ul li{
 }
 
 .pink::after{
-    content: 'Editorial';
+    content: 'Website';
     color: white;
     background-color: pink;
     border-radius: 5px;
@@ -122,9 +151,10 @@ ul li{
 }
 
 .green::after{
-    content: 'Editorial';
+    content: 'Sales';
     color: white;
     background-color: greenyellow;
     border-radius: 5px;
     margin: 10px;
 }
+
