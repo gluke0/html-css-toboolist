@@ -33,3 +33,30 @@ header{
     display: inline-block;
     vertical-align: middle;
 }
+
+.container1{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    padding: 14px 0 0 35px;
+    margin-bottom: 2px;
+}
+
+#button1{
+    background-color: deepskyblue;
+    color: white;
+    padding: 5px;
+    border: 1px solid deepskyblue;
+    border-radius: 5px;
+}
+
+#button2{
+    background-color: white;
+    color: lightgray;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
