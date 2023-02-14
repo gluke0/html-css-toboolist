@@ -13,6 +13,7 @@ table{
     border-spacing: 0;
 }
 
+/* font e body */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 body{
@@ -21,6 +22,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* banner */
 header{ 
     background-color: white;
 }
@@ -37,6 +39,7 @@ header{
     vertical-align: middle;
 }
 
+/* bottoni */
 .container1{
     width: 80%;
     height: 50px;
@@ -63,6 +66,7 @@ header{
     border-radius: 5px;
 }
 
+/* liste */
 .container2{
     width: 80%;
     height: 800px;
@@ -83,6 +87,8 @@ ul li{
     list-style-type: none;
     margin-bottom: 15px;
 }
+
+/* checked unchecked */
 .symbol1{
     display: inline-block;
     height: 20px;
@@ -121,6 +127,7 @@ ul li{
     content: "\2717";
 }
 
+/* etichette */
 .blue::after{
     content: 'Editorial';
     color: white;
