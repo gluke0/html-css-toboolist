@@ -13,9 +13,12 @@ table{
     border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 body{
     width: 100%;
-    background-color: rgb(194, 224, 234);
+    background-color: rgb(246,248,249);
+    font-family: 'Roboto', sans-serif;
 }
 
 header{ 
@@ -45,10 +48,10 @@ header{
 }
 
 #button1{
-    background-color: deepskyblue;
+    background-color: rgb(71, 173, 241);
     color: white;
     padding: 5px;
-    border: 1px solid deepskyblue;
+    border: 1px solid rgb(71, 173, 241);
     border-radius: 5px;
 }
 
@@ -113,48 +116,54 @@ ul li{
 .blue::after{
     content: 'Editorial';
     color: white;
-    background-color: dodgerblue;
-    border-radius: 5px;
-    margin: 10px;
+    background-color: rgb(69, 171, 234);
+    border-radius: 12px;
+    padding: 5px 8px;
+    margin-left: 8px;
 }
 
 .purple::after{
     content: 'Q1 Goals';
     color: white;
-    background-color: purple;
-    border-radius: 5px;
-    margin: 10px;
+    background-color: rgb(156, 114, 228);
+    border-radius: 12px;
+    padding: 5px 8px;
+    margin: 8px;
 }
 
 .almostgreen::after{
     content: 'Recruiting';
     color: white;
-    background-color: green;
-    border-radius: 5px;
-    margin: 10px;
+    background-color: rgb(100, 192, 169);
+    border-radius: 12px;
+    padding: 5px 8px;
+    margin: 8px;
 }
 
 .orange::after{
     content: 'Mobile';
     color: white;
-    background-color: orange;
-    border-radius: 5px;
-    margin: 10px;
+    background-color: rgb(242, 158, 51);
+    border-radius: 12px;
+    padding: 5px 8px;
+    margin: 8px;
 }
 
 .pink::after{
     content: 'Website';
     color: white;
-    background-color: pink;
-    border-radius: 5px;
-    margin: 10px;
+    background-color: rgb(216, 99, 161);
+    border-radius: 12px;
+    padding: 5px 8px;
+    margin: 8px;
 }
 
 .green::after{
     content: 'Sales';
     color: white;
-    background-color: greenyellow;
-    border-radius: 5px;
-    margin: 10px;
+    background-color: rgb(176, 201, 38);
+    border-radius: 12px;
+    padding: 5px 8px;
+    margin: 8px;
 }
 
