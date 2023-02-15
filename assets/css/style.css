@@ -42,34 +42,33 @@ header{
 /* bottoni */
 .container1{
     width: 80%;
-    height: 50px;
     margin: auto;
     margin-top: 40px;
     background-color: white;
-    padding: 14px 0 0 35px;
+    padding: 15px 0 15px 40px;
     margin-bottom: 2px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #button1{
     background-color: rgb(71, 173, 241);
     color: white;
-    padding: 5px;
     border: 1px solid rgb(71, 173, 241);
-    border-radius: 5px;
 }
 
 #button2{
     background-color: white;
     color: lightgray;
-    padding: 5px;
     border: 1px solid lightgray;
-    border-radius: 5px;
 }
 
 /* liste */
 .container2{
     width: 80%;
-    height: 800px;
     margin: auto;
     background-color: white;
 }
@@ -80,7 +79,7 @@ h2{
 }
 
 .lists{
-    padding: 28px 0 0 28px;
+    padding: 28px;
 }
 
 ul li{
@@ -107,77 +106,55 @@ ul li{
     color: red;
 }
 
-.checked{
+.checked::before{
+    content: "\2713";
     padding: 2px;
     line-height: 20px;
     color: green;
 }
 
-.unchecked{
+.unchecked::before{
+    content: "\2717";
     padding: 2px;
     line-height: 20px;
     color: red;
 }
 
-.checked::before{
-    content: "\2713";
-}
-
-.unchecked::before{
-    content: "\2717";
-}
-
 /* etichette */
+.etichette::after{
+    border-radius: 12px;
+    padding: 5px 8px;
+    margin-left: 8px;
+    color: white;
+}
+
 .blue::after{
     content: 'Editorial';
     color: white;
     background-color: rgb(69, 171, 234);
-    border-radius: 12px;
-    padding: 5px 8px;
-    margin-left: 8px;
 }
 
 .purple::after{
     content: 'Q1 Goals';
-    color: white;
     background-color: rgb(156, 114, 228);
-    border-radius: 12px;
-    padding: 5px 8px;
-    margin: 8px;
 }
 
 .almostgreen::after{
     content: 'Recruiting';
-    color: white;
     background-color: rgb(100, 192, 169);
-    border-radius: 12px;
-    padding: 5px 8px;
-    margin: 8px;
 }
 
 .orange::after{
     content: 'Mobile';
-    color: white;
     background-color: rgb(242, 158, 51);
-    border-radius: 12px;
-    padding: 5px 8px;
-    margin: 8px;
 }
 
 .pink::after{
     content: 'Website';
-    color: white;
     background-color: rgb(216, 99, 161);
-    border-radius: 12px;
-    padding: 5px 8px;
-    margin: 8px;
 }
 
 .green::after{
     content: 'Sales';
-    color: white;
     background-color: rgb(176, 201, 38);
-    border-radius: 12px;
-    padding: 5px 8px;
-    margin: 8px;
 }
